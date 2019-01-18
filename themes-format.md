@@ -1,5 +1,7 @@
 **Theme Definition File Format**
 
+Customizing Doppelgänger requires the use of a themes definition file, containing an array of theme overrides. These override baked-in base themes that provide a suitable starting place for theme development.
+
 Each theme must include a `code`, `parent_code`, and `name`.
 
 The theme's `parent_code` value must be one of the built-in base themes: `default`, `dark`, or `hideous`.
@@ -9,6 +11,8 @@ To override a value in the base theme, simply specify it in the theme definition
 Colors are specified as a string in an RGBA (red, green, blue, alpha) format, as follows: `255,255,255,255`.
 
 Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image name or a remote URL. Remote URLs should only be used for testing, and the ideal image dimensions should be 450px x 120px.
+
+**Format Reference**
 
 ```
 [
@@ -125,3 +129,12 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
   [...]
 ]
 ```
+
+**Test Navbar Logo Images**
+
+https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/apple_nav.png
+https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/daringfireball_nav.png
+https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/laist_nav.png
+https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/laist_dark_nav.png
+https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/sixcolors_nav.png
+https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/washingtonpost_nav.png
