@@ -129,12 +129,3 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
   [...]
 ]
 ```
-
-**Test Navbar Logo Images**
-
-https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/apple_nav.png
-https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/daringfireball_nav.png
-https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/laist_nav.png
-https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/laist_dark_nav.png
-https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/sixcolors_nav.png
-https://raw.githubusercontent.com/PublicMediaKitchen/doppelganger/tree/master/images/nav/washingtonpost_nav.png
