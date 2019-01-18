@@ -159,6 +159,9 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
 		},
 		"nav_embedded": {
 			"navbar_button_color": "255,0,0,255"
+		},
+		"nav_root": {
+			"navbar_logo_image": "nav_bar_logo.png"
 		}
 	},
 
@@ -188,6 +191,9 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
 		},
 		"nav_embedded": {
 			"navbar_button_color": "255,0,0,255"
+		},
+		"nav_root": {
+			"navbar_logo_image": "nav_bar_logo_dark.png"
 		}
 	},
 
@@ -195,7 +201,10 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
 	{
 		"code": "hideous",
 		"parent_code": "hideous",
-		"name": "Hideous Dev"
+		"name": "Hideous Dev",
+		"nav_root": {
+			"navbar_logo_image": "nav_bar_logo_dark.png"
+		}
 	}
 ]
 
