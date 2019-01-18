@@ -14,7 +14,7 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
 [
   {
     "code": "(string, code for theme)",
-		"parent_code": "(string, code for theme that is overridden)",
+    "parent_code": "(string, code for theme that is overridden)",
     "name": "(string, visible name)",
     "is_nighttime": (bool, whether this is a 'nighttime' theme),
     "global": {
@@ -113,7 +113,7 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
       "navbar_title_color": "(string, embedded navbar title text color)"
     },
     "nav_root": {
-			"navbar_logo_image": "(string, nav image as a baked-in image filename or url)",
+      "navbar_logo_image": "(string, nav image as a baked-in image filename or url)",
       "navbar_background_color": "(string, root navbar background color)",
       "navbar_visual_effect": "(string, root navbar style - extra_light, dark)",
       "navbar_title_color": "(string, root navbar title text color)",
