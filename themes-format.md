@@ -134,78 +134,77 @@ Navbar image (`navbar_logo_image`) can be changed by specifying a baked-in image
 
 ```
 [
-	{
-		"code": "default",
-		"parent_code": "default",
-		"name": "Default Dev",
-		"global": {
-			"buttons": {
-				"normal": "255,0,0,255"
-			},
-			"segmented_controls": {
-				"color": "255,0,0,255",
-				"text_color_normal": "255,0,0,255",
-				"text_color_highlighted": "170,170,170,255",
-				"text_color_selected": "255,255,255,255",
-				"text_color_disabled": "170,170,170,255"
-			},
-			"switches": {
-				"off_color": "180,180,180,255",
-				"on_color": "190,220,230,255",
-				"thumb_color": "255,0,0,255"
-			},
-			"menu_button_color": "255,0,0,255",
-			"menu_disclosure_triangle_color": "255,0,0,255"
-		},
-		"nav_embedded": {
-			"navbar_button_color": "255,0,0,255"
-		},
-		"nav_root": {
-			"navbar_logo_image": "nav_bar_logo.png"
-		}
-	},
+  {
+    "code": "default",
+    "parent_code": "default",
+    "name": "Default Dev",
+    "global": {
+      "buttons": {
+        "normal": "255,0,0,255"
+      },
+      "segmented_controls": {
+        "color": "255,0,0,255",
+        "text_color_normal": "255,0,0,255",
+        "text_color_highlighted": "170,170,170,255",
+        "text_color_selected": "255,255,255,255",
+        "text_color_disabled": "170,170,170,255"
+      },
+      "switches": {
+        "off_color": "180,180,180,255",
+        "on_color": "190,220,230,255",
+        "thumb_color": "255,0,0,255"
+      },
+      "menu_button_color": "255,0,0,255",
+      "menu_disclosure_triangle_color": "255,0,0,255"
+    },
+    "nav_embedded": {
+      "navbar_button_color": "255,0,0,255"
+    },
+    "nav_root": {
+      "navbar_logo_image": "nav_bar_logo.png"
+    }
+  },
 
 
-	{
-		"code": "dark",
-		"parent_code": "dark",
-		"name": "Dark Dev",
-		"global": {
-			"buttons": {
-				"normal": "255,0,0,255"
-			},
-			"segmented_controls": {
-				"color": "255,0,0,255",
-				"text_color_normal": "255,0,0,255",
-				"text_color_highlighted": "170,170,170,255",
-				"text_color_selected": "255,255,255,255",
-				"text_color_disabled": "170,170,170,255"
-			},
-			"switches": {
-				"off_color": "180,180,180,255",
-				"on_color": "190,220,230,255",
-				"thumb_color": "255,0,0,255"
-			},
-			"menu_button_color": "255,0,0,255",
-			"menu_disclosure_triangle_color": "255,0,0,255"
-		},
-		"nav_embedded": {
-			"navbar_button_color": "255,0,0,255"
-		},
-		"nav_root": {
-			"navbar_logo_image": "nav_bar_logo_dark.png"
-		}
-	},
+  {
+    "code": "dark",
+    "parent_code": "dark",
+    "name": "Dark Dev",
+    "global": {
+      "buttons": {
+        "normal": "255,0,0,255"
+      },
+      "segmented_controls": {
+        "color": "255,0,0,255",
+        "text_color_normal": "255,0,0,255",
+        "text_color_highlighted": "170,170,170,255",
+        "text_color_selected": "255,255,255,255",
+        "text_color_disabled": "170,170,170,255"
+      },
+      "switches": {
+        "off_color": "180,180,180,255",
+        "on_color": "190,220,230,255",
+        "thumb_color": "255,0,0,255"
+      },
+      "menu_button_color": "255,0,0,255",
+      "menu_disclosure_triangle_color": "255,0,0,255"
+    },
+    "nav_embedded": {
+      "navbar_button_color": "255,0,0,255"
+    },
+    "nav_root": {
+      "navbar_logo_image": "nav_bar_logo_dark.png"
+    }
+  },
 
 
-	{
-		"code": "hideous",
-		"parent_code": "hideous",
-		"name": "Hideous Dev",
-		"nav_root": {
-			"navbar_logo_image": "nav_bar_logo_dark.png"
-		}
-	}
+  {
+    "code": "hideous",
+    "parent_code": "hideous",
+    "name": "Hideous Dev",
+    "nav_root": {
+      "navbar_logo_image": "nav_bar_logo_dark.png"
+    }
+  }
 ]
-
 ```
