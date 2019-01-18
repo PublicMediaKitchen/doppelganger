@@ -2,7 +2,7 @@
 
 Customizing Doppelgänger requires the use of a themes definition file, containing an array of theme overrides. These override baked-in base themes that provide a suitable starting place for theme development.
 
-Note: This format is in flux and will likely change quite a bit in time as Doppelgänger becomes more readily customized.
+*Note: This format is in flux and will likely change quite a bit in time as Doppelgänger becomes more readily customized.*
 
 **Notes**
 
